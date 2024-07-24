@@ -17,7 +17,6 @@ html {
 
 section.topo01 {
   background-image: url(/imgs/bg-wallpaper.jpg);
-
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -43,32 +42,32 @@ a.btn-comecar-agora:hover {
 }
 
 .sociais-hanover {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 15px;
-  }
-  
-  .sociais a {
-    margin: 0px 10px;
-    color: white;
-    padding: 10px;
-    border-radius: 50%;
-    background-color: #262627;
-    font-size: 1.5rem;
-    text-decoration: none;
-    transition: 0.2s all;
-  }
-  
-  .facebook a:hover {
-    background-color: #3b5998;
-  }
-  .twitter a:hover {
-    background-color: #00acee;
-  }
-  .Linkedin a:hover {
-    background-color: #0e76a8;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.sociais a {
+  margin: 0px 10px;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #262627;
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: 0.2s all;
+}
+
+.facebook a:hover {
+  background-color: #3b5998;
+}
+.twitter a:hover {
+  background-color: #00acee;
+}
+.Linkedin a:hover {
+  background-color: #0e76a8;
+}
 
 /*HEADER SECTION 1 TOPO */
 section.topo01 header {
@@ -304,8 +303,6 @@ footer .interface .footer-newsletter img {
   width: 200px;
   margin-bottom: 15px;
 }
-
-
 
 footer .interface .footer-newsletter h3,
 p {
