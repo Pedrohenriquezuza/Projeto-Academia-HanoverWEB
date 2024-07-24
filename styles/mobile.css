@@ -1,0 +1,148 @@
+@media (max-width: 500px) {
+  section.topo01 {
+    background-image: url(/Academia/imgs/bg-wallpaper.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /*HEADER MOBILE*/
+
+  main div.topo01-center {
+    height: 80vh;
+  }
+
+  section.topo01 header {
+    flex-direction: column;
+    padding: 20px 20px;
+    align-items: center;
+  }
+
+  section.topo01 header ul {
+    margin-top: 25px;
+    display: flex;
+    text-align: center;
+    text-shadow: 1px 5px 50px black;
+  }
+
+  section.topo01 header ul li {
+    margin-right: 1rem;
+  }
+
+  /*MAIN-SECTION-TOPO1*/
+
+  main div.topo01-center {
+    text-align: center;
+  }
+
+  main div.topo01-center h1 {
+    line-height: 3.5rem;
+  }
+
+  main div.topo01-center p {
+    font-size: 1.3rem;
+    width: 80vw;
+    text-align: center;
+    line-height: 1.3em;
+    margin-bottom: 1rem;
+  }
+
+  /*SECTION-TOPO2-BEMVINDO*/
+
+  section.topo2 p#txt-welcome {
+    padding-bottom: 0.8rem;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+  }
+
+  section.topo2 .cards-topo2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+  }
+
+  section.topo2 .cards-topo2 .card-01,
+  .card-02,
+  .card-03 {
+    border: 2px solid rgb(236, 236, 236);
+    padding: 25px;
+    margin: 10px;
+    width: 200%;
+    max-width: 500px;
+    text-align: center;
+  }
+
+  section.topo2 .cards-topo2 .card-01 h3,
+  .card-02 h3,
+  .card-03 h3 {
+    color: #d01919;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+
+  section.topo2 .cards-topo2 .card-01 p,
+  .card-02 p,
+  .card-03 p {
+    width: 75%;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+
+  /*SECTION--MEIO01--IMAGENS DE ACADEMIA*/
+
+  section.meio01 div.imgs-meio01 {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 10px 10px black;
+  }
+
+  /*SECTION-MEIO02-PERSONALS*/
+
+  section.meio02 .interface div.card-personal-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /*SECTION-FIM01-DEPOIMENTOS*/
+
+  section.fim01 .interface .txt-depoimentos-fim01 h2 {
+    padding-top: 100px;
+  }
+
+  section.fim01 .interface .txt-depoimentos-fim01 p#txt-depoimento {
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    text-shadow: 0px 0px 10px black;
+  }
+
+  section.fim01 .interface .txt-depoimentos-fim01 p {
+    margin-bottom: 60px;
+    text-align: center;
+  }
+
+  section.fim01 .interface .txt-depoimentos-fim01 p#txt-dados-cliente {
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    width: 150px;
+  }
+
+  /*FOOTER HANOVER */
+
+  footer .interface .footer-newsletter h3,
+  p {
+    padding-bottom: 0.8rem;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+  }
+}

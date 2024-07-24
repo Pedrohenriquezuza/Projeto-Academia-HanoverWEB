@@ -1,0 +1,352 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body,
+html {
+  width: 100%;
+}
+
+.interface {
+  text-align: center;
+  margin: 90px;
+}
+
+section.topo01 {
+  background-image: url(/Academia/imgs/bg-wallpaper.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a.btn-comecar-agora {
+  padding: 1rem;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid rgba(0, 0, 0, 0.315);
+  border-radius: 10px;
+  width: 170px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+a.btn-comecar-agora:hover {
+  background-color: #f3c800;
+  color: #222222;
+  transform: scale(1.1);
+}
+
+.sociais-hanover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .sociais a {
+    margin: 0px 10px;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #262627;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: 0.2s all;
+  }
+  
+  .facebook a:hover {
+    background-color: #3b5998;
+  }
+  .twitter a:hover {
+    background-color: #00acee;
+  }
+  .Linkedin a:hover {
+    background-color: #0e76a8;
+  }
+
+/*HEADER SECTION 1 TOPO */
+section.topo01 header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 80px;
+  align-items: center;
+}
+
+section.topo01 header img {
+  width: 250px;
+}
+
+section.topo01 header ul {
+  display: flex;
+}
+
+section.topo01 header ul li {
+  list-style-type: none;
+  margin-right: 3rem;
+}
+
+section.topo01 header ul li a {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.2rem;
+  font-weight: normal;
+  text-decoration: none;
+  transition: 0.4s all;
+  display: inline-block;
+}
+
+section.topo01 header ul li a:hover {
+  color: #eec500;
+  transform: scale(1.1);
+}
+/*MAIN*/
+
+main div.topo01-center {
+  height: 86vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+main div.topo01-center h1 {
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+}
+
+main div.topo01-center p {
+  font-size: 1.3rem;
+  width: 900px;
+  text-align: center;
+  line-height: 1.3em;
+  margin: 0px;
+}
+/*SECTION - TOPO2 - BEM VINDO*/
+
+h2.titulo-section {
+  font-size: 3rem;
+  margin-bottom: 50px;
+  position: relative; /* Necessário para o posicionamento da pseudo-elemento */
+  display: inline-block; /* Para que a pseudo-elemento seja posicionado em relação ao h2 */
+}
+
+h2.titulo-section::after {
+  content: "";
+  display: block;
+  width: 70px; /* Largura da linha */
+  height: 3px; /* Altura da linha */
+  background-color: #d01919; /* Cor da linha */
+  margin: 20px auto 0; /* Distância entre o h2 e a linha */
+}
+
+section.topo2 p#txt-welcome {
+  font-size: 1.2rem;
+  width: 900px;
+  margin: auto;
+  margin-bottom: 70px;
+  font-weight: 100;
+}
+
+section.topo2 .cards-topo2 {
+  display: flex;
+  margin: 30px;
+  justify-content: space-around;
+}
+
+section.topo2 .cards-topo2 .card-01,
+.card-02,
+.card-03 {
+  border: 2px solid rgb(236, 236, 236);
+  padding: 25px;
+}
+section.topo2 .cards-topo2 .card-01 i,
+.card-02 i,
+.card-03 i {
+  background-color: #222222;
+  padding: 20px;
+  font-size: 30px;
+  border-radius: 90px;
+  color: white;
+  border: 7px solid rgb(238, 238, 238);
+  margin-bottom: 20px;
+}
+
+section.topo2 .cards-topo2 .card-01 h3,
+.card-02 h3,
+.card-03 h3 {
+  color: #d01919;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+section.topo2 .cards-topo2 .card-01 p,
+.card-02 p,
+.card-03 p {
+  width: 430px;
+  margin-bottom: 20px;
+}
+
+/*SECTION--MEIO01--IMAGENS DE ACADEMIA*/
+
+section.meio01 div.imgs-meio01 {
+  display: flex;
+  box-shadow: 5px 5px 10px 10px black;
+}
+
+section.meio01 div.imgs-meio01 img {
+  width: 100%;
+}
+
+/*SECTION-MEIO02-PERSONALS*/
+
+section.meio02 .interface div.card-personal-info {
+  display: flex;
+  justify-content: space-around;
+}
+
+section.meio02 .interface div.card-personal-info div.card01-personal-info img,
+div.card02-personal-info img,
+div.card03-personal-info img,
+div.card04-personal-info img {
+  margin-bottom: 1.1rem;
+  width: 300px;
+}
+
+section.meio02 .interface div.card-personal-info div.card01-personal-info spam,
+div.card02-personal-info spam,
+div.card03-personal-info spam,
+div.card04-personal-info spam {
+  color: #d01919;
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+section.meio02 .interface div.card-personal-info div.card01-personal-info h2,
+div.card02-personal-info h2,
+div.card03-personal-info h2,
+div.card04-personal-info h2 {
+  margin-bottom: 10px;
+}
+
+.teste02020202 p {
+  font-size: 1.1rem;
+  width: 200px;
+  margin: auto;
+  color: rgb(138, 138, 138);
+  line-height: 1.6rem;
+  font-weight: 100;
+  margin-bottom: 5rem;
+}
+
+/*SECTION-FIM01-DEPOIMENTOS*/
+
+section.fim01 .interface {
+  margin: 0;
+  padding: 0;
+  background-image: url(/Academia/imgs/bg-fim01-academia.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+section.fim01 .interface .txt-depoimentos-fim01 {
+  display: flex;
+  flex-direction: column;
+}
+
+section.fim01 .interface .txt-depoimentos-fim01 h2 {
+  padding-top: 150px;
+}
+
+section.fim01 .interface .txt-depoimentos-fim01 i {
+  color: #eec500;
+  font-size: 4rem;
+  margin-bottom: 30px;
+}
+
+section.fim01 .interface .txt-depoimentos-fim01 p#txt-depoimento {
+  width: 500px;
+  margin: auto;
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  text-shadow: 0px 0px 10px black;
+}
+
+section.fim01 .interface .txt-depoimentos-fim01 img {
+  width: 5rem;
+  margin: auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+section.fim01 .interface .txt-depoimentos-fim01 p {
+  margin-bottom: 60px;
+}
+
+/*FOOTER HANOVER */
+
+footer .interface {
+  background-color: #191919;
+  padding: 30px 0px;
+  margin: 0;
+  color: white;
+}
+
+footer .interface .footer-newsletter img {
+  width: 200px;
+  margin-bottom: 15px;
+}
+
+
+
+footer .interface .footer-newsletter h3,
+p {
+  padding-bottom: 0.7rem;
+  width: 500px;
+  margin: auto;
+}
+
+div.form-footer-email {
+  display: flex;
+  justify-content: center;
+}
+
+div.form-footer-email form {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+}
+
+div.form-footer-email input[type="email"] {
+  padding: 10px;
+  width: 90%;
+  border: none;
+  outline: none;
+}
+
+div.form-footer-email input[type="submit"] {
+  padding: 10px;
+  width: 40%;
+  border-radius: 0px 10px 10px 0px;
+  border: none;
+  background-color: #d01919;
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+div.form-footer-email i {
+  padding: 10px;
+  background-color: #262627;
+  border-radius: 10px 0px 0px 10px;
+  text-align: center;
+  align-items: center;
+  line-height: 20px;
+}
