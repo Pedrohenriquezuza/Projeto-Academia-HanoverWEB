@@ -16,7 +16,7 @@ html {
 }
 
 section.topo01 {
-  background-image: url(imgs/bg-wallpaper.jpg);
+  
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -249,7 +249,7 @@ div.card04-personal-info h2 {
 section.fim01 .interface {
   margin: 0;
   padding: 0;
-  background-image: url(imgs/bg-fim01-academia.png);
+  
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
